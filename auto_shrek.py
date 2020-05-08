@@ -3,14 +3,14 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 # Variables
-facebookEmail = "YOUR FACEBOOK EMAIL"
-facebookPassword = "YOUR FACEBOOK PASSWORD"
-friendName = "THE NAME OF THE PERSON THAT WILL GET THE MESSAGES"
+facebookEmail = ""
+facebookPassword = ""
+friendName = ""
 sendDelay = 1;
 
 # Opens Facebook Messenger
-driver = webdriver.Chrome('chromedriver.exe')
-driver.get('https://www.messenger.com/')
+driver = webdriver.Chrome("./chromedriver.exe")
+driver.get("https://www.messenger.com/")
 
 # Login
 driver.find_element_by_xpath('//*[@id="email"]').send_keys(facebookEmail)
