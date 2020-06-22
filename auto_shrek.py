@@ -9,7 +9,7 @@ friendName = ""
 sendDelay = 1;
 
 # Opens Facebook Messenger
-driver = webdriver.Chrome("./chromedriver.exe")
+driver = webdriver.Chrome("./cromedriver.exe")
 driver.get("https://www.messenger.com/")
 
 # Login
@@ -22,7 +22,7 @@ getUser = driver.find_element_by_xpath("//*[contains(text(), '" + friendName + "
 
 # Reads Shrek script file and saves to movie_script list
 movie_script = []
-with open('script.txt', "r") as f:
+with open('ipsum.txt', "r") as f:
     movie_script = f.read().split()
 
 # printing the list using loop
