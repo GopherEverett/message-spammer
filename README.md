@@ -1,5 +1,5 @@
 # Shrek word-by-word script sender
-![Benjamin Bannekat](https://i.imgur.com/7HVvmhC.jpg)
+<!-- ![Benjamin Bannekat](https://i.imgur.com/7HVvmhC.jpg) -->
 # Prerequisites
 Make sure you have selenium installed
 
